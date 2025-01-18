@@ -1,6 +1,5 @@
----
-lab:
-  title: 创建自定义代理
+
+实验室：“创建自定义代理”
 ---
 <!--
 Edit the metadata above to manage the list of exercises in the home page of the GitHub site that gets generated.
@@ -48,7 +47,7 @@ To enable GitHub page publishing, edit the Page settings for the repo and publis
 
 ## 任务 2：为 Azure OpenAI 模型实现 RAG
 
-现在，让我们……
+在此任务中，将了解如何使用数据源为自己的测试环境实现 RAG。
 
 1. 在新创建的 Azure OpenAI 资源页中，单击页面顶部功能区中的“**登录到 Azure OpenAI Studio**”。
 2. 在标题为“**欢迎使用 Azure OpenAI 服务**”的新页面中，单击屏幕左侧导航菜单上的“**聊天**”。
@@ -78,7 +77,7 @@ To enable GitHub page publishing, edit the Page settings for the repo and publis
 
  ## 任务 3：在测试工具和 Teams 中创建和测试自定义代理
 
-现在，让我们……
+在此任务中，将创建自定义代理并测试代理。
 
 1. 打开 **Visual Studio Code**。
 2. 在 Visual Studio Code 窗口右侧，选择“**Teams 工具包**”图标 > 选择“**创新一个新的应用**”> 在下拉列表中，选择“**自定义引擎代理**”（备注：根据 Teams 工具包版本，可能必须要选择“**自定义 Copilot**”）> 选择“**基本 AI 聊天机器人** > **JavaScript** > **Azure OpenAI**”。
@@ -96,13 +95,25 @@ To enable GitHub page publishing, edit the Page settings for the repo and publis
 
    f. 在通过上述步骤 a-f 新创建应用的新 VS Code 窗口中，导航到屏幕左侧的“**Teams 工具包**”图标。
 
+   **备注：** 对于没有 Microsoft Teams 管理中心管理员访问权限的用户环境，应完成步骤 g-i。 如果用户拥有 M365 租户且具有管理员访问权限，则执行 j-m 步骤。
+
    g. 在“**帐户**”部分下，单击“**登录到 Microsoft 365**”。 将在浏览器中打开一个新窗口。 使用提供的凭据登录。
 
-   h.如果该值不存在，请单击“添加行”。 导航回应用的 VS Code 页。 现在，应该在**“账户”下的“**已启用自定义应用上传**”字样旁看到一个绿色复选标记。
+   h. 导航回应用的 VS Code 页。 现在，应该在**“账户”下的“**已启用自定义应用上传**”字样旁看到一个绿色复选标记。
 
    i. 在“**帐户**”部分下，单击“**登录到 Azure**”。 在每个弹出窗口上单击“**确定**”。 将在浏览器中打开一个新窗口。 使用提供的凭据登录。
+
+   对于拥有 M365 租户且具有 Microsoft Teams 管理中心管理员访问权限的用户，请执行以下步骤，而不是上述步骤 g-i：
+
+   j. 使用管理员凭据登录 https://admin.teams.microsoft.com。
+
+   k. 转到边栏上的“ **Teams 应用**” ，然后选择“ **设置策略**”。
+
+   l. 选择“ **全局（组织范围内的默认）**” 策略，然后打开“ **上传自定义应用程序**” 切换。
+
+   m. 向下滚动并选择“ **保存**” 按钮保存更改。 现在，租户将允许自定义应用旁加载。 
    
-4. 在应用的 VS Code 窗口中导航到 **src/prompts/chat/skprompt.txt**。 删除文件中的任何文本并粘贴以下内容：“下面是与 AI 助手的对话，AI 助手是一位专家，负责回答给定上下文的问题。 
+5. 在应用的 VS Code 窗口中导航到 **src/prompts/chat/skprompt.txt**。 删除文件中的任何文本并粘贴以下内容：“下面是与 AI 助手的对话，AI 助手是一位专家，负责回答给定上下文的问题。 
 
 回复应采用简短的新闻体裁，不超过80个字。” 
 
