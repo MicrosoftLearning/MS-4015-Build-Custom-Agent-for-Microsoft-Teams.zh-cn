@@ -14,7 +14,7 @@ To enable GitHub page publishing, edit the Page settings for the repo and publis
 完成此练习大约需要 60 分钟。 <!-- update with estimated duration -->
 
 **备注：** 学习者可以使用以下选项完成此实验室
-1) Skillable 实验室环境
+1) 为学员提供的实验室环境。
 2) 学习者应在自己的环境中针对所有其他 ALH 完成此实验室。
 
 ##  任务 1：创建 Azure OpenAI 资源 
@@ -28,7 +28,7 @@ To enable GitHub page publishing, edit the Page settings for the repo and publis
 1. 名为 **Azure OpenAI** 的结果应显示为一个选项。 此选项的左下角是标记为“**创建**”的按钮。 按“**创建** > **Aure OpenAI**”。
 1. 在“**创建 Azure OpenAI**”页下设置以下字段：
 
-**备注：** 对于使用自己环境的学习者，在选择“**订阅**” 、“**定价层**”和“**资源组**”字段的值时，需自行决定。 对于使用 Skillable 实验室环境的学习者，请选择以下步骤 a-d 中字段的默认值。
+**备注：** 对于使用自己环境的学习者，在选择“**订阅**” 、“**定价层**”和“**资源组**”字段的值时，需自行决定。 对于使用提供的实验室环境的学员，请选择以下步骤 a-d 中字段的默认值。
    
    a. **订阅** 填写此字段时请自行决断。
    
@@ -61,7 +61,7 @@ To enable GitHub page publishing, edit the Page settings for the repo and publis
 6. 在“**选择或添加数据源**”窗口中，选择“**选择数据源**”下拉列表，然后选择“**上传文件（预览版）**”。
 7. 在下一页的“**数据源**”中，确保“**选择数据源**”下拉列表设置为“**上传文件（预览版）**”
 
-**备注：** 对于使用自己环境的学习者，用户在填写以下步骤 a-c 的字段时，需自行决定。 对于使用 Skillable 环境的学习者，请按照下面步骤 a-b 中的说明使用默认值。 
+**备注：** 对于使用自己环境的学习者，用户在填写以下步骤 a-c 的字段时，需自行决定。 对于使用提供的环境的学员，请按照下面步骤 a-b 中的说明使用默认值。 
   
    a. 在“**订阅**”字段中，确保已选择默认值。
    
@@ -104,7 +104,7 @@ To enable GitHub page publishing, edit the Page settings for the repo and publis
 
    f. 在通过上述步骤 a-f 新建应用的新 VS Code 窗口中，导航到屏幕左侧的“**Teams 工具包**”图标。
 
-   **备注：** 对 Microsoft Teams 管理中心没有管理员访问权限的用户环境和/或使用 Skillable 环境的学习者应完成步骤 g-i。
+   **备注：** 对 Microsoft Teams 管理中心没有管理员访问权限的用户环境，和/或使用提供的实验室环境的学员应完成步骤 g-i。
   对于具有自己环境的学习者，请改为执行步骤 j-m。
 
    g. 在“**帐户**”部分下，单击“**登录到 Microsoft 365**”。 将在浏览器中打开一个新窗口。 使用提供的凭据登录。
